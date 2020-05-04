@@ -1,0 +1,14 @@
+Started by user [8mha:////4JioD8GE8rKHySrSFo4LNNqKizBm9/szyZeU6GVQCjCGAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy+EgZe/dLi1CL9rNS87My8YgAbMpQCwgAAAA==[0mjenkins master
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/remote_job execution
+[SSH] script:
+
+NAME=sumit
+echo "Hello $NAME.How are you" > /tmp/name.txt
+
+[SSH] executing...
+
+[SSH] completed
+[SSH] exit-status: 0
+
+Finished: SUCCESS

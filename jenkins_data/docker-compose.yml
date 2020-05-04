@@ -1,8 +1,10 @@
 version: '3'
 services:
   jenkins:
-    container_name: jenkins
-    image: jenkins/jenkins
+    container_name: jenkins-ansible
+    image: jenkins-ansible
+    build:
+      context: jenkins-ansible
     restart: always
     ports:
       - "8080:8080"
