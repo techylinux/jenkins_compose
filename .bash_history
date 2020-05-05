@@ -158,3 +158,164 @@ cd ..
 ls
 cp centos7/remote-key jenkins_home/ansible/
 docker exec -it jenkins-ansible bash
+sudo su - 
+ls
+cd jenkins_data/
+ls
+cd jenkins
+ls
+cd jenkins
+cd jenkins-ansible/
+ls
+cd ..
+ls
+cd jenkins_home/
+ls
+cd ansible/
+sl
+ls
+pwd
+cd ..
+ls
+cd ..
+ls
+cd jenkins-ansible/
+ls
+vim hosts
+ls
+docker ps -a
+docker exec -it jenkins-ansible
+docker exec -it jenkins-ansible bash
+ls
+vim hosts 
+cp hosts ../jenkins_home/ansible/
+ls
+docker exec -it jenkins-ansible bash
+ls
+cd
+sl
+cd jenkins_data/
+ls
+cd jenkins_home/ansible/
+ls
+vim hosts
+docker exec -it jenkins-ansible bash
+vim hosts 
+docker exec -it jenkins-ansible bash
+ls
+pwd
+vim hosts
+ls
+docker exec -it jenkins-ansible bash
+ls
+cd ..
+ls
+cd ..
+ls
+cd ..
+ls
+git status
+sudo git add -A .
+sudo git commit -m "addedansible files"
+sudo git push -u origin master
+ls
+cd jenkins_data/
+ls
+cd jenkins
+cd jenkins_home/ansible/
+ls
+vim play1.yml
+docker exec -it jenkins-ansiblebash 
+docker exec -it jenkins-ansible bash 
+ls
+docker ps -a
+docker rm dddc2b2d43ef
+docker ps -a
+docker exec -it jenkins-ansible
+docker exec -it jenkins-ansible bash
+docker exec -it remote-host bash
+ls
+cd jenkins_data/
+ls
+cd jenkins-ansible/
+ls
+cd ..
+ls
+cd jenkins_home/ansible/
+ls
+cat play1.yml 
+ls
+pwd
+cp play1.yml play2.ym
+mv play2.yml
+mv play2.ym play2.yml
+ls
+vim play2.yml 
+docker exec -it jenkins-ansible bash
+ls
+cat play2.yml 
+ls
+vim play2.yml 
+cat play2.yml 
+vim play2.yml 
+docker exec -it db bash
+n1
+yum install n1
+sudp yum install n1
+sudo yum install n1
+ls
+nl
+ls
+nl play2.yml 
+man nl
+man grep
+cat play2.yml | grep -w name
+cat play2.yml | grep -o name
+cat play2.yml | grep -w msg
+ls
+pwd
+ls
+pwd
+cd ..
+ls
+cd ..
+ls
+cd jenkins-ansible/
+ls
+vim people.txt
+nl people.txt 
+ls
+vim put.sh
+chmod +x put.sh 
+./put.sh 
+vim put.sh
+./put.sh 
+vim put.sh
+ls
+nl people.txt | grep -w 2
+nl people.txt | grep -w 34
+nl people.txt | grep -w 34 | awk '{ print $2}'
+nl people.txt | grep -w 34 | awk '{ print $2}' | awk -F ',' '{print $1}'
+nl people.txt | grep -w 34 | awk '{ print $2}' | awk -F ','  '{ print $1 }'
+nl people.txt | grep -w 34 | awk '{ print $2}' | awk -F ','  '{ print $2 }'
+vim put.sh 
+./put.sh 
+vim put.sh 
+./put.sh 
+shuf
+shuf -i 20-40
+shuf -i 20-40 -f 1
+shuf -i 20-40 -n2
+shuf -i 20-40 -n1
+ls
+docker ps -a
+ls
+cd jenkins_data/
+ls
+cd jenkins-ansible/
+s
+ls
+vim put.sh 
+shuf -i 20-26
+shuf -i 20-26 -n1
+vim put.sh 

@@ -1,0 +1,7 @@
+---
+ - name: this play book is basic
+   hosts: test1
+   tasks:
+    - name: run using ansible parameter
+      debug:
+       msg: "{{ MSG }}"

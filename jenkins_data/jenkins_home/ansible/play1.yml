@@ -1,0 +1,6 @@
+---
+ - name: this play book is basic
+   hosts: test1
+   tasks:
+    - name: run echo command
+      shell: echo "Hello world" > /tmp/hello.txt

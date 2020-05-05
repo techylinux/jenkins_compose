@@ -8,8 +8,8 @@
 # hlsearch on (H) or off (h):
 ~H
 # Command Line History (newest to oldest):
-:wq
 :q!
+:wq
 
 # Search String History (newest to oldest):
 
@@ -21,30 +21,46 @@
 
 # Registers:
 ""1	LINE	0
-	      context: jenkins-ansible
+	      shell: echo "Hello world" > /tmp/hello.txt
 "2	LINE	0
+	      context: jenkins-ansible
+"3	LINE	0
 	    build:
 
 # File marks:
-'0  6  116  ~/jenkins_data/jenkins_home/ansible/hosts
-'1  3  19  ~/jenkins_data/jenkins_home/ansible/hosts
-'2  6  112  ~/jenkins_data/jenkins-ansible/hosts
-'3  6  3  ~/jenkins_data/jenkins-ansible/Dockerfile
-'4  16  0  ~/jenkins_data/centos7/Dockerfile
-'5  35  0  ~/jenkins_data/docker-compose.yml
-'6  14  0  ~/jenkins_data/aws-s3.sh
-'7  37  0  ~/jenkins_data/docker-compose.yml
-'8  14  0  ~/jenkins_data/aws-s3.sh
-'9  16  20  ~/jenkins_data/centos7/Dockerfile
+'0  16  0  ~/jenkins_data/centos7/Dockerfile
+'1  9  88  ~/jenkins_data/jenkins-ansible/put.sh
+'2  10  35  ~/jenkins_data/jenkins-ansible/put.sh
+'3  1  0  ~/jenkins_data/jenkins-ansible/p
+'4  8  22  ~/jenkins_data/jenkins-ansible/put.sh
+'5  7  39  ~/jenkins_data/jenkins-ansible/put.sh
+'6  5  1  ~/jenkins_data/jenkins-ansible/put.sh
+'7  11  3  ~/jenkins_data/jenkins-ansible/put.sh
+'8  50  9  ~/jenkins_data/jenkins-ansible/people.txt
+'9  7  11  ~/jenkins_data/jenkins_home/ansible/play2.yml
 
 # Jumplist (newest first):
+-'  16  0  ~/jenkins_data/centos7/Dockerfile
+-'  9  88  ~/jenkins_data/jenkins-ansible/put.sh
+-'  10  0  ~/jenkins_data/jenkins-ansible/put.sh
+-'  1  0  ~/jenkins_data/jenkins-ansible/p
+-'  8  0  ~/jenkins_data/jenkins-ansible/put.sh
+-'  7  0  ~/jenkins_data/jenkins-ansible/put.sh
+-'  5  1  ~/jenkins_data/jenkins-ansible/put.sh
+-'  11  0  ~/jenkins_data/jenkins-ansible/put.sh
+-'  1  0  ~/jenkins_data/jenkins-ansible/put.sh
+-'  50  9  ~/jenkins_data/jenkins-ansible/people.txt
+-'  1  0  ~/jenkins_data/jenkins-ansible/people.txt
+-'  7  11  ~/jenkins_data/jenkins_home/ansible/play2.yml
+-'  1  0  ~/jenkins_data/jenkins_home/ansible/play2.yml
+-'  6  47  ~/jenkins_data/jenkins_home/ansible/play1.yml
+-'  1  0  ~/jenkins_data/jenkins_home/ansible/play1.yml
 -'  6  116  ~/jenkins_data/jenkins_home/ansible/hosts
 -'  3  0  ~/jenkins_data/jenkins_home/ansible/hosts
 -'  1  0  ~/jenkins_data/jenkins_home/ansible/hosts
 -'  6  112  ~/jenkins_data/jenkins-ansible/hosts
 -'  1  0  ~/jenkins_data/jenkins-ansible/hosts
 -'  6  3  ~/jenkins_data/jenkins-ansible/Dockerfile
--'  16  0  ~/jenkins_data/centos7/Dockerfile
 -'  35  0  ~/jenkins_data/docker-compose.yml
 -'  1  0  ~/jenkins_data/docker-compose.yml
 -'  14  0  ~/jenkins_data/aws-s3.sh
@@ -84,12 +100,10 @@
 -'  1  0  ~/jenkins_data/aws-s3.sh
 -'  14  0  ~/jenkins_data/aws-s3.sh
 -'  1  0  ~/jenkins_data/aws-s3.sh
--'  16  0  ~/jenkins_data/centos7/Dockerfile
 -'  35  0  ~/jenkins_data/docker-compose.yml
 -'  1  0  ~/jenkins_data/docker-compose.yml
 -'  14  0  ~/jenkins_data/aws-s3.sh
 -'  1  0  ~/jenkins_data/aws-s3.sh
--'  1  0  ~/jenkins_data/centos7/Dockerfile
 -'  14  0  ~/jenkins_data/aws-s3.sh
 -'  1  0  ~/jenkins_data/aws-s3.sh
 -'  7  6  ~/jenkins_data/docker-compose.yml
@@ -121,22 +135,58 @@
 -'  1  0  ~/jenkins_data/aws-s3.sh
 -'  14  0  ~/jenkins_data/aws-s3.sh
 -'  1  0  ~/jenkins_data/aws-s3.sh
--'  14  0  ~/jenkins_data/aws-s3.sh
--'  1  0  ~/jenkins_data/aws-s3.sh
--'  6  3  ~/jenkins_data/jenkins-ansible/Dockerfile
--'  16  0  ~/jenkins_data/centos7/Dockerfile
--'  35  0  ~/jenkins_data/docker-compose.yml
--'  1  0  ~/jenkins_data/docker-compose.yml
--'  14  0  ~/jenkins_data/aws-s3.sh
--'  1  0  ~/jenkins_data/aws-s3.sh
--'  1  0  ~/jenkins_data/centos7/Dockerfile
--'  14  0  ~/jenkins_data/aws-s3.sh
--'  1  0  ~/jenkins_data/aws-s3.sh
--'  7  6  ~/jenkins_data/docker-compose.yml
--'  37  0  ~/jenkins_data/docker-compose.yml
--'  1  0  ~/jenkins_data/jenkins-ansible/Dockerfile
 
 # History of marks within files (newest to oldest):
+
+> ~/jenkins_data/centos7/Dockerfile
+	"	16	0
+	^	16	21
+	.	16	0
+	+	16	0
+
+> ~/jenkins_data/jenkins-ansible/put.sh
+	"	9	88
+	^	9	89
+	.	9	88
+	+	4	25
+	+	5	18
+	+	11	3
+	+	5	4
+	+	6	84
+	+	7	8
+	+	6	79
+	+	7	79
+	+	6	39
+	+	7	39
+	+	10	54
+	+	8	22
+	+	9	91
+	+	10	35
+	+	9	16
+	+	4	25
+	+	9	88
+
+> ~/jenkins_data/jenkins-ansible/p
+	"	1	0
+
+> ~/jenkins_data/jenkins-ansible/people.txt
+	"	50	9
+	^	50	10
+	.	50	0
+	+	50	0
+
+> ~/jenkins_data/jenkins_home/ansible/play2.yml
+	"	7	11
+	^	7	12
+	.	7	12
+	+	8	0
+	+	7	12
+
+> ~/jenkins_data/jenkins_home/ansible/play1.yml
+	"	6	47
+	^	6	48
+	.	6	48
+	+	6	48
 
 > ~/jenkins_data/jenkins_home/ansible/hosts
 	"	6	116
@@ -159,12 +209,6 @@
 	.	6	3
 	+	5	33
 	+	6	3
-
-> ~/jenkins_data/centos7/Dockerfile
-	"	16	0
-	^	16	21
-	.	16	0
-	+	16	0
 
 > ~/jenkins_data/docker-compose.yml
 	"	7	6

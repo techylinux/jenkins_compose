@@ -45,3 +45,27 @@ ls
 cd ansible/
 ls
 ansible prod -i hosts -m ping
+ls
+cd /tmp/
+ls
+cd /var/jenkins_home/
+sl
+ls
+ls
+cd ansible/
+ls
+ls play1.yml 
+pwd
+ls /var/jenkins_home/ansible/play1.yml 
+ls /var/jenkins_home/ansible/hosts 
+date
+cd /var/jenkins_home/
+ls
+cd as
+cd ansible/
+ls
+vim play2.yml 
+cat play2.yml 
+ansible-playbook play2.yml
+ansible-playbook play2.yml --syntax-checkk
+ansible-playbook play2.yml --syntax-check

@@ -1,0 +1,19 @@
+Started by user [8mha:////4JioD8GE8rKHySrSFo4LNNqKizBm9/szyZeU6GVQCjCGAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy+EgZe/dLi1CL9rNS87My8YgAbMpQCwgAAAA==[0mjenkins master
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/another_ansible_playbook
+[another_ansible_playbook] $ ansible-playbook /var/jenkins_home/ansible/play2.yml -i /var/jenkins_home/ansible/hosts -f 5 -e MSG=ANSIBLE_MSG
+
+PLAY [this play book is basic] *************************************************
+
+TASK [Gathering Facts] *********************************************************
+ok: [test1]
+
+TASK [run using ansible parameter] *********************************************
+ok: [test1] => {
+    "msg": "This is awsome and the paramater is \"ANSIBLE_MSG\""
+}
+
+PLAY RECAP *********************************************************************
+test1                      : ok=2    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+
+Finished: SUCCESS

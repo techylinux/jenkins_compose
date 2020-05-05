@@ -1,4 +1,8 @@
-Started at Mon May 04 11:22:56 UTC 2020
+Started at Tue May 05 09:16:34 UTC 2020
+Processing another_ansible_playbook
+Offering another_ansible_playbook to Project Build Discarder
+Processing ansible-playbook task
+Offering ansible-playbook task to Project Build Discarder
 Processing remote_job execution
 Offering remote_job execution to Project Build Discarder
-Finished at Mon May 04 11:22:56 UTC 2020. 5ms
+Finished at Tue May 05 09:16:34 UTC 2020. 15ms
